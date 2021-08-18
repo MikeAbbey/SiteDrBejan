@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acasa</title>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+    <script src="scripts/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="general.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&family=Montserrat:wght@400&family=Roboto&display=swap');
+    </style>
+</head>
+<body>
+    <header>
+        <style>
+          #intro {
+            background-image: url("images/cristina.jpg");
+            
+            background-size: cover;
+            
+            height: 150vh;
+            background-position-y: 15%;
+              }
+    
+          /* Height for devices larger than 576px */
+          @media (min-width: 992px) {
+            #intro {
+              margin-top: -58.59px;
+            }
+          }
+          @media(max-width: 768px){
+              #intro{
+                  background-position-x: 30%;
+                  
+              }
+          }
+          
+        </style>
+    
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark  d-lg-block fixed-top" >
+          <div class="container-fluid ">
+            <!-- Navbar brand -->
+            <a class="navbar-brand nav-link" target="_blank" href="index.html">
+              <img src="images/icon-bejan.png" class="img-fluid" id="logo">
+            </a>
+            <button class="navbar-toggler second-button" type="button" data-mdb-toggle="collapse"
+            data-mdb-target="#navbarToggleExternalContent10"
+            aria-controls="navbarToggleExternalContent10" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <div class="animated-icon2"><span></span><span></span><span></span><span></span></div>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center " id="navbarToggleExternalContent10">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+                <li class="nav-item active nav-section">
+                  <a class="nav-link" aria-current="page" href="#intro">Home</a>
+                </li>
+                <li class="nav-item nav-section dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-mdb-toggle="dropdown"
+                    aria-expanded="false">
+                    Chirurgie
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-start " style="background-color: #986D8E;" aria-labelledby="navbarDropdown">
+                    <li>
+                      <a class="dropdown-item" href="#">Lorem</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Ipsum</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Sit</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Dolorem</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item nav-section">
+                  <a class="nav-link" href="#">Estetica</a>
+                </li>
+                <li class="nav-item nav-section">
+                    <a class="nav-link" href="#" >Corporal</a>
+                  </li>
+                  <li class="nav-item nav-section">
+                    <a class="nav-link" href="#" >Facial</a>
+                  </li>
+                  <li class="nav-item nav-section">
+                    <a class="nav-link" href="#" >Preturi Servicii</a>
+                  </li>
+                  <li class="nav-item nav-section">
+                    <a class="nav-link" href="#" >Contact</a>
+                  </li>
+              </ul>
+    
+              <ul class="navbar-nav d-flex flex-row ms-auto">
+                <!-- Icons -->
+                <li class="nav-item ms-3 ms-lg-0">
+                  <a class="nav-link btn-floating" href="#" >
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </li>
+                <li class="nav-item ms-3 ms-lg-0">
+                  <a class="nav-link btn-floating" href="#" data-mdb-ripple-color="dark" >
+                    <i class="fab fa-facebook-f "></i>
+                  </a>
+                </li>
+                <li class="nav-item ms-3 ms-lg-0">
+                  <a class="nav-link btn-floating" href="#" >
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!-- Navbar -->
+    
+        <!-- Background image -->
+        <div id="intro" class="bg-image shadow-2-strong">
+          <div class="mask" style="background-color: rgba(63, 28, 61, 0.527);">
+            <div class="container d-flex align-items-center justify-content-center text-center h-100">
+              <div class="text-white">
+                <h1 class="mb-3">Medicina Estetica Profesionala</h1>
+                <h5 class="mb-4">Bine ati venit la clinica Dr Cristina Bejan</h5>
+                <a class="btn btn-outline-light btn-lg m-2" href="#" role="button"
+                    data-mdb-ripple-color="dark">Vezi gama de servicii oferite</a>
+                <a class="btn btn-outline-light btn-lg m-2" data-mdb-ripple-color="dark" href="#" 
+                  role="button">Contacteaza-ne acum!</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Background image -->
+      </header>
+      <!--Main Navigation-->
+    
+      <!--Main layout-->
+      <main class="mt-5">
+        <div class="container">
+          <!--Section: Content-->
+          <section>
+            <div class="row">
+              <div class="col-md-6 gx-5 mb-4">
+                <div class="bg-image hover-overlay ripple shadow-2-strong" data-mdb-ripple-color="light">
+                  <img src="images/Department-of-Plastic-and-Reconstructive-Surgery_tn.jpg" class="img-fluid" />
+                  <a href="#!">
+                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                  </a>
+                </div>
+              </div>
+    
+              <div class="col-md-6 gx-5 mb-4">
+                <h4><strong>Facilis consequatur eligendi</strong></h4>
+                <p class="text-muted">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis consequatur
+                  eligendi quisquam doloremque vero ex debitis veritatis placeat unde animi laborum
+                  sapiente illo possimus, commodi dignissimos obcaecati illum maiores corporis.
+                </p>
+                <p><strong>Doloremque vero ex debitis veritatis?</strong></p>
+                <p class="text-muted">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod itaque voluptate
+                  nesciunt laborum incidunt. Officia, quam consectetur. Earum eligendi aliquam illum
+                  alias, unde optio accusantium soluta, iusto molestiae adipisci et?
+                </p>
+              </div>
+            </div>
+          </section>
+          <!--Section: Content-->
+    
+          <hr class="my-5" />
+    
+          <!--Section: Content-->
+          <section class="text-center">
+            <h4 class="mb-5"><strong>Facilis consequatur eligendi</strong></h4>
+    
+            <div class="row">
+              <div class="col-lg-3 col-md-6 mb-4">
+                <div class="card">
+                  <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                    <img src="images/chirurgie_plastica.png" class="img-fluid" />
+                    <a href="#!">
+                      <div class="mask" style="background-color: rgba(0, 0, 0, 0.15);"></div>
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Chirurgie Plastica</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make up the bulk of the
+                      card's content.
+                    </p>
+                    <a href="#!" class="btn btn-secondary">Afla mai multe</a>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="col-lg-3 col-md-6 mb-4">
+                <div class="card">
+                  <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                    <img src="images/medicina_estetica.png" class="img-fluid" />
+                    <a href="#!">
+                      <div class="mask" style="background-color: rgba(0, 0, 0, 0.15);"></div>
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Medicina Estetica</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make up the bulk of the
+                      card's content.
+                    </p>
+                    <a href="#!" class="btn btn-secondary">Afla mai multe</a>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="col-lg-3 col-md-6 mb-4">
+                <div class="card">
+                  <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                    <img src="images/facial.png" class="img-fluid" />
+                    <a href="#!">
+                      <div class="mask" style="background-color: rgba(0, 0, 0, 0.15);"></div>
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Facial</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make up the bulk of the
+                      card's content.
+                    </p>
+                    <a href="#!" class="btn btn-secondary">Afla mai multe</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 mb-4">
+                <div class="card" >
+                  <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                    <img src="images/corporal.jpg" class="img-fluid" />
+                    <a href="#!">
+                      <div class="mask" style="background-color: rgba(0, 0, 0, 0.15);"></div>
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Corporal</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make up the bulk of the
+                      card's content.
+                    </p>
+                    <a href="#!" class="btn btn-secondary  ">Afla mai multe</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!--Section: Content-->
+    
+          <hr class="my-5" />
+    
+          <!--Section: Content-->
+          <section class="mb-5">
+            <div class="row d-flex justify-content-center align-items-center">
+              <div class="col-md-6 ">
+                <h4 class="mb-5 text-center"><strong>Contacteaza-ne pentru mai multe detalii!</strong></h4>
+                <form>
+                  <!-- 2 column grid layout with text inputs for the first and last names -->
+                  <div class="row mb-4">
+                    <div class="col">
+                      <div class="form-outline">
+                        <input type="text" id="form3Example1" class="form-control" />
+                        <label class="form-label" for="form3Example1">Nume</label>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="form-outline">
+                        <input type="text" id="form3Example2" class="form-control" />
+                        <label class="form-label" for="form3Example2">Prenume</label>
+                      </div>
+                    </div>
+                  </div>
+    
+                  <!-- Email input -->
+                  <div class="form-outline mb-4">
+                    <input type="email" id="form3Example3" class="form-control" />
+                    <label class="form-label" for="form3Example3">Adresa de email</label>
+                  </div>
+    
+                  <!-- Password input -->
+                  <div class="form-outline mb-4">
+                    <textarea class="form-control" rows="4"></textarea>
+                    <label class="form-label" for="form3Example4">Message</label>
+                  </div>
+                  <!-- Submit button -->
+                  <button type="submit" class="btn btn-secondary btn-block mb-4">
+                    Trimite mesaj
+                  </button>
+                  <div class="text-center align-items-center ">
+                    <h3 >SAU</h3>
+                    <a class="btn btn-secondary btn-lg m-3 " href="tel:+40723129310" role="button">Apeleaza-ne la <br>+40723129310</a>
+                  </div>
+                  
+                </form>
+              </div>
+              <div class="col-md-6">
+                <!-- Jumbotron -->
+                  <div
+                    class="p-5 text-center bg-image rounded-3"
+                    style="
+                      background-image: url('images/servicii.jpg');
+                      height: 400px;
+                    "
+                  >
+                <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+                  <div class="d-flex justify-content-center align-items-center h-100">
+                    <div class="text-white">
+                      <h1 class="mb-3">Lista de servicii</h1>
+                      <a class="btn btn-light btn-lg" href="#!" role="button">vezi preturile noastre</a>
+                    </div>
+                  </div>
+                </div>
+                </div>
+            <!-- Jumbotron -->
+              </div>
+            </div>
+          </section>
+          <!--Section: Content-->
+        </div>
+      </main>
+      <footer class=" text-lg-start">
+        
+    
+        <hr class="m-0" />
+    
+        <div class="text-center py-4 align-items-center">
+          <p>Urmariti-ne pe social media!</p>
+          <a href="#" class="btn btn-floating m-1" role="button"
+            rel="nofollow" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="#" class="btn btn-floating m-1" role="button" rel="nofollow"
+            target="_blank">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="#" class="btn btn-floating m-1" role="button" rel="nofollow"
+            target="_blank">
+            <i class="fab fa-twitter"></i>
+          </a>
+        
+          </a>
+        </div>
+    
+        <!-- Copyright -->
+        <div class="text-center p-3" >
+          © 2021 Copyright:
+          <a class="text-dark" href="https://mdbootstrap.com/">Clinica Dr. Cristina Bejan</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.js"></script>
+      <script src="scripts/scrollnav.js"></script>
+      <script src="scripts/hamburger.js"></script>
+</body>
+</html>
