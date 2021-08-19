@@ -1,4 +1,4 @@
 $(window).scroll(function(){
-	$('nav').toggleClass('scrolled', $(this).scrollTop() > $('#intro').height());
+	$('nav').toggleClass('scrolled', $(this).scrollTop() > $('#intro').height()/2);
 	
 });
